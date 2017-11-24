@@ -1,0 +1,42 @@
+form {
+    
+    text-align: center;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid blue;
+}
+
+button {
+    padding: 5px;
+    background: blue;
+    color: white;
+    font-weight: bold;
+    border: 1px solid blue;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.contactItem {
+    margin: 10px;
+    border: 2px solid blue;
+    padding: 10px;
+    
+}
+
+.contactLabel {
+    font-weight: bold;
+}
+
+.contactEmail {
+
+}
+
+.contactImage {
+    width: 100px;
+    height: auto;
+}
