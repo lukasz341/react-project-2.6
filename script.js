@@ -1,9 +1,13 @@
-//console.log(test);
+
 var Counter = React.createClass ({
     getInitialState: function (){
         return {
             counter: 0
         };
+    },
+    
+    componentWillMount: function (){
+        console.log(' tekst ')
     },
 
     increment: function (){
