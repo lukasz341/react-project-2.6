@@ -11,10 +11,15 @@ input {
 
 button {
     padding: 5px;
+    margin: 5px;
     background: blue;
     color: white;
     font-weight: bold;
     border: 1px solid blue;
+}
+
+p {
+    margin: 10px;
 }
 
 button:hover {
